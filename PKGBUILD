@@ -3,7 +3,7 @@
 # PKGBUILD review by Rafael from RebornOS
 
 pkgname=postman-bin
-pkgver=9.0.4
+pkgver=9.0.5
 pkgrel=1
 pkgdesc="Build, test, and document your APIs faster"
 provides=('postman')
@@ -17,7 +17,7 @@ source=(
 	"postman.desktop"
 )
 depends=(libxss nss gtk3)
-sha256sums=('f4e5f5ad2356ab66094010adeb8884e28b19bdf55a8e0102d85dbcc3b1d2b375'
+sha256sums=('fbdc4f134a9caebd52215d11310e31a4f4003844d398a89a4fa9519977d948fc'
             '74b2d8570658e207e31f729e7f4768952252383aee7c695218d077bd0ef13245')
 package() 
 {
